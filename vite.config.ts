@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: "/vite-ts-portfolio/",
   plugins: [
     react({
       babel: {
@@ -9,11 +10,6 @@ export default defineConfig({
       },
     }),
   ],
-  resolve: {
-    alias: {
-      "@": "/src",
-    },
-  },
   server: {
     fs: {
       strict: false,
