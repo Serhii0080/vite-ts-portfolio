@@ -8,7 +8,7 @@ export const projectsData = [
         imageSrc: Project1,
         alt: "notes", 
         title: 'NOTES', 
-        description: "Notes App — JS notes application (pragmatic MVC architecture) with separation into Model, View and Controller and a closed interaction loop.",
+        description: "Notes App — JS  (pragmatic MVC architecture) with separation into Model, View and Controller and a closed interaction loop.",
         link: "https://serhii0080.github.io/project/index.html"
     },
     {
